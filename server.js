@@ -29,3 +29,9 @@ const name_number1 = ["Angad", "Chunnoo", "Nitish"];
 const name_number2 = ["Angad", "Chunnoo", "Nitish"];
 
 console.log(name_number,name_number1,name_number2);
+// object
+const student = {
+    firstName: 'ram',
+    class: 10
+};
+console.log(student)
