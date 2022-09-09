@@ -47,3 +47,9 @@ const cars = {
     EnrollmentID: "0029110d2020"
 };
 console.log(cars)
+
+const object_name = {
+    key1: 25,
+    key2: 50
+ }
+ console.log(object_name)
