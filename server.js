@@ -53,3 +53,5 @@ const object_name = {
     key2: 50
  }
  console.log(object_name)
+
+ 
