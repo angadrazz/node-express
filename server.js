@@ -71,3 +71,19 @@ const personUS = {
 // accessing property
 console.log(personUS.age, personUS.name); // John
 console.log(personUS["name","age","name"])
+
+// nested object
+const user = {
+    name: 'John',
+    age: 20,
+    marks: {
+        science: 70,
+        math: 75
+    }
+}
+
+// accessing property of student object
+console.log(user.marks.age); // {science: 70, math: 75}
+
+// accessing property of marks object
+// console.log(user.marks.science); // 70
