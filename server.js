@@ -17,3 +17,7 @@
 let x = 15;
 let y = 54;
 console.log(x <= y)
+
+let carName1 = "Volvo XC60";   // Using double quotes
+let carName2 = 'SuzuKi';   // Using single quotes
+console.log(carName1,carName2)
