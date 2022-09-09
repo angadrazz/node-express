@@ -32,6 +32,8 @@ console.log(name_number,name_number1,name_number2);
 // object
 const student = {
     firstName: 'ram',
-    class: 10
+    class: 10,
+    Enrollment number: "000291102020BB",
+    section: 'B'
 };
 console.log(student)
