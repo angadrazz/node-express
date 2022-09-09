@@ -33,7 +33,15 @@ console.log(name_number,name_number1,name_number2);
 const student = {
     firstName: 'ram',
     class: 10,
-    Enrollment number: "000291102020BB",
+    Enrollment: "000291102020BB",
     section: 'B'
+
 };
+
 console.log(student)
+
+let cars = {
+    first_name: 'angad',
+    class: 12,
+    section: '0415b'
+}
