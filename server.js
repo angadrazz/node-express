@@ -54,4 +54,19 @@ const object_name = {
  }
  console.log(object_name)
 
+//  javascript object creation
  
+// object creation
+const person = {
+    name: 'John',
+    age: 20
+};
+console.log(typeof person); // object
+
+const personUS = {
+    name: 'John',
+    age: 20,
+};
+
+// accessing property
+console.log(personUS.age, personUS.name); // John
