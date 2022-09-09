@@ -101,3 +101,14 @@ console.log(user.marks)
 console.log(user.marks.science); // 70
 
 console.log(id.id_number)
+
+// JavaScript Object Methods
+
+const userf = {
+    name: 'Sam',
+    age: 30,
+    // using function as a value
+    greet: function() { console.log('hello','agad') }
+}
+
+userf.greet(); // hello
