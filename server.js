@@ -75,7 +75,7 @@ console.log(personUS["name","age","name"])
 // nested object
 const user = {
     name: 'John',
-    age: 20,
+    age: 2520,
     marks: {
         science: 70,
         math: 75
@@ -83,7 +83,7 @@ const user = {
 }
 
 // accessing property of student object
-console.log(user.marks.age); // {science: 70, math: 75}
-
+console.log(user.age); // {science: 70, math: 75}
+console.log(user);
 // accessing property of marks object
 // console.log(user.marks.science); // 70
