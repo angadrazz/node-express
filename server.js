@@ -81,6 +81,17 @@ const user = {
         math: 75
     }
 }
+let id = {
+    firstname: 'Angad kumar',
+    Lastname: 'Mandal',
+    age: 19,
+    id_number: {
+        Mob: 45527,
+        Mob1: 54,
+        Mob3: 2567
+    }
+}
+console.log(id)
 
 // accessing property of student object
 console.log(user.age); // {science: 70, math: 75}
@@ -88,3 +99,5 @@ console.log(user);
 console.log(user.marks)
 // accessing property of marks object
 console.log(user.marks.science); // 70
+
+console.log(id.id_number)
