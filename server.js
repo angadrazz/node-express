@@ -87,4 +87,4 @@ console.log(user.age); // {science: 70, math: 75}
 console.log(user);
 console.log(user.marks)
 // accessing property of marks object
-// console.log(user.marks.science); // 70
+console.log(user.marks.science); // 70
