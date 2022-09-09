@@ -21,3 +21,11 @@ console.log(x <= y)
 let carName1 = "Volvo XC60";   // Using double quotes
 let carName2 = 'SuzuKi';   // Using single quotes
 console.log(carName1,carName2)
+
+// JAVASCRIPT ARRAYS
+
+const name_number = ["Angad", "Chunnoo", "Nitish"];
+const name_number1 = ["Angad", "Chunnoo", "Nitish"];
+const name_number2 = ["Angad", "Chunnoo", "Nitish"];
+
+console.log(name_number,name_number1,name_number2);
