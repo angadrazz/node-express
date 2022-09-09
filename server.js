@@ -70,3 +70,4 @@ const personUS = {
 
 // accessing property
 console.log(personUS.age, personUS.name); // John
+console.log(personUS["name","age","name"])
