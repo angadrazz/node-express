@@ -40,8 +40,10 @@ const student = {
 
 console.log(student)
 
-let cars = {
+const cars = {
     first_name: 'angad',
     class: 12,
-    section: '0415b'
-}
+    section: '0415b00548767845478',
+    EnrollmentID: "0029110d2020"
+};
+console.log(cars)
