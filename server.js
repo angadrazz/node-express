@@ -130,6 +130,12 @@ function sumOfRange(start, end, sum = 0) {
     }
 
     for(let i=1;i<5;i++) {
-        for(let j=100;j<200;j++){
+        for(let j=2;j<20;j++){
         console.log(i,j);
         }}
+
+    let i=0;
+while(i<10){
+console.log(i);
+i++;
+}
