@@ -139,3 +139,10 @@ while(i<10){
 console.log(i);
 i++;
 }
+
+const arr = [23,56,89];
+const result = arr.filter(function(value){
+return value>89;
+})
+// document.write(result);
+console.log(result);
