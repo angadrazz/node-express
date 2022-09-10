@@ -112,3 +112,15 @@ const userf = {
 }
 
 userf.greet(); // hello
+
+function sumOfRange(start, end, sum = 0) {
+    if (start > end) {
+      return sum;
+    }
+  
+    let current = start; // for readability
+    sum += current;
+    return sumOfRange(current + 1, end, sum);
+  }
+  
+  sumOfRange(10, 20);
