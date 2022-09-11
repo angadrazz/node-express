@@ -160,4 +160,18 @@ console.log(result);
 // }
 // alert( 'Sum: ' + sum );
 
+let nam = 'Manik';
+const sal = 50000;
+
+function display(){
+    console.log(`Name is ${nam}`);
+    console.log(`Salary is ${sal}`);
+
+    let sample = 90;
+    console.log(sample);
+}
+
+display();
+console.log(display);
+
 
