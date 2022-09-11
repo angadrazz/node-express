@@ -146,3 +146,16 @@ return value>89;
 })
 // document.write(result);
 console.log(result);
+
+let sum = 0;
+
+while (true) {
+
+  let value = +prompt("Enter a number", '');
+
+  if (!value) break; // (*)
+
+  sum += value;
+
+}
+alert( 'Sum: ' + sum );
