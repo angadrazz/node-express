@@ -147,15 +147,17 @@ return value>89;
 // document.write(result);
 console.log(result);
 
-let sum = 0;
+// let sum = 0;
 
-while (true) {
+// while (true) {
 
-  let value = +prompt("Enter a number", '');
+//   let value = +prompt("Enter a number", '');
 
-  if (!value) break; // (*)
+//   if (!value) break; // (*)
 
-  sum += value;
+//   sum += value;
 
-}
-alert( 'Sum: ' + sum );
+// }
+// alert( 'Sum: ' + sum );
+
+
